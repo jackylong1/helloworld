@@ -48,6 +48,8 @@ func main() {
 	if err := cmd.Execute(); err != nil {
 		log.Fatalf("cobra err=%v\n", err)
 	}
+
+	fmt.Printf("successful")
 }
 
 func run(cmd *cobra.Command, args []string) {
