@@ -56,3 +56,7 @@ func run(cmd *cobra.Command, args []string) {
 	fmt.Printf("cobra-command=%s, args=%v\n", cmd.Use, args)
 
 }
+
+func what() {
+	fmt.Printf("hello world")
+}
